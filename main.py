@@ -1,10 +1,8 @@
 import random
 
-pcnumber = random.randint(0, 2);
-print(pcnumber)
-userguss = input("guss the number")
 
-if userguss == pcnumber:
+userguss = int(input("guss the number"))
+pcnumber = random.randint(0, 0)
+if (userguss == pcnumber):
     print("nice")
-else:
-    print("your worng")
+else:print("worng")
