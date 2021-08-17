@@ -1,6 +1,6 @@
 import random
 
-pcnumber = random(0, 2);
+pcnumber = random.randint(0, 2);
 print(pcnumber)
 userguss = input("guss the number")
 
