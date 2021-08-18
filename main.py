@@ -1,4 +1,5 @@
 #v.1
+
 # import random
 # userguss = int(input("guss the number between 0 and 2 you got 1 change"))
 # pcnumber = random.randint(0, 2)
@@ -8,6 +9,7 @@
 
 
 #v.2
+
 import random
 pcnumber = random.randint(1,100)
 attempts=1
