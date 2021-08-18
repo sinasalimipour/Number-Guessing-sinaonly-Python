@@ -8,22 +8,22 @@
 
 #v.2
 import random
-n = random.randint(1,100)
-count=1
+pcnumber = random.randint(1,100)
+attempts=1
 print("Guess your number (1-100)")
 print("You have only 9 attempt ")
 while(True):
-    a=int(input("Enter your guess"))
-    if(a==n):
-        remain = 9 - count
-        print("you guess correct \nGuess attempt :",count,"Remaining:",remain)
+    userguss=int(input("Enter your guess"))
+    if(userguss==pcnumber):
+        remain = 9 - attempts
+        print("you guess correct \nGuess attempt :",attempts,"Remaining:",remain)
         break
-    elif(count==9):
+    elif(attempts==9):
         print("GAME OVER")
         break
-    elif(a<n):
+    elif(userguss<pcnumber):
         print("guess greater number")
-        count=count + 1
+        count=attempts + 1
     else:
         print("guess lesser number")
-        count = count + 1
+        count = attempts + 1
